@@ -1,0 +1,28 @@
+{
+	"name": "swr-race-condition-bug",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"next": "^13.1.6",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"swr": "^2.0.3"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.18",
+		"@types/react": "^18.0.27",
+		"typescript": "<4.9.0"
+	},
+	"author": "Monstrag",
+	"license": "UNLICENSED",
+	"private": true,
+	"packageManager": "yarn@3.3.1",
+	"browserslist": [
+		"cover 90%, not ie <= 11"
+	]
+}
